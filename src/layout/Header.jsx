@@ -7,9 +7,9 @@ function Header() {
         <Link to={"/"} className="text-xl lg:text-2xl">
           market<span className="text-sky-400 font-semibold">GO</span>
         </Link>
-        <div className="flex sm:gap-20 flex-col-reverse gap-3">
+        <div className="flex sm:gap-18 gap-3 flex-row">
           <form
-            className="grid md:grid-cols-[20rem_4rem] grid-cols-[10rem_4rem] max-h-[50px] sm:block hidden"
+            className="grid md:grid-cols-[20rem_4rem] grid-cols-[1fr_4rem] max-h-[50px] sm:grid hidden px-3"
             onSubmit={(e) => {
               e.preventDefault();
             }}
